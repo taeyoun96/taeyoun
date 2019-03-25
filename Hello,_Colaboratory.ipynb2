@@ -28,6 +28,37 @@
     {
       "metadata": {
         "colab_type": "text",
+        "id": "2i_fHsI51pu-"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "<img height=\"60px\" src=\"/img/colab_favicon.ico\" align=\"left\" hspace=\"20px\" vspace=\"5px\">\n",
+        "\n",
+        "## Colaboratory에 오신 것을 환영합니다.\n",
+        "\n",
+        "Colaboratory는 설치가 필요 없고 완전히 클라우드에서 실행되는 무료 Jupyter 노트 환경입니다. 자세한 정보는 [FAQ](https://research.google.com/colaboratory/faq.html)를 참조하세요."
+      ]
+    },
+    {
+      "metadata": {
+        "colab_type": "text",
+        "id": "nGXrezT31pvC"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "## 시작하기\n",
+        "- [Colaboratory 개요](/notebooks/basic_features_overview.ipynb)\n",
+        "- [데이터 로드 및 저장: 로컬 파일, 드라이브, 스프레드시트, Google Cloud Storage](/notebooks/io.ipynb)\n",
+        "- [라이브러리 가져오기 및 종속성 항목 설치](/notebooks/snippets/importing_libraries.ipynb)\n",
+        "- [Google Cloud BigQuery 사용하기](/notebooks/bigquery.ipynb)\n",
+        "- [양식](/notebooks/forms.ipynb), [차트](/notebooks/charts.ipynb), [마크다운](/notebooks/markdown_guide.ipynb), [위젯](/notebooks/widgets.ipynb)\n",
+        "- [GPU가 포함된 텐서플로우](/notebooks/gpu.ipynb)\n",
+        "- [머신러닝 단기집중과정](https://developers.google.com/machine-learning/crash-course/): [Pandas 소개](/notebooks/mlcc/intro_to_pandas.ipynb) 및 [TensorFlow 첫 단계](/notebooks/mlcc/first_steps_with_tensor_flow.ipynb)\n"
+      ]
+    },
+    {
+      "metadata": {
+        "colab_type": "text",
         "id": "1fr51oVCHRZU"
       },
       "cell_type": "markdown",
@@ -37,76 +68,47 @@
     },
     {
       "metadata": {
-        "id": "vgDEnfsacPJP",
+        "id": "d8h7ctWpfyQQ",
         "colab_type": "code",
         "colab": {}
       },
       "cell_type": "code",
       "source": [
-        "국립환경과학원에서는 아파트에서 소음이 가장 심한 층수를 구하는 계산식을 발표했습니다. 소음이 가장 심한 층은 0.2467 * 도로와의 거리(m) + 4.159입니다. 다음 소스 코드를 완성하여 소음이 가장 심한 층수가 출력되게 만드세요. 단, 층수를 출력할 때는 소수점 이하 자리는 버립니다(정수로 출력).\n",
+        "국립환경과학원에서는 아파트에서 소음이 가장 심한 층수를 구하는 계산식을 발표했습니다.\n",
+        "소음이 가장 심한 층은 0.2467 * 도로와의 거리(m) + 4.159입니다. \n",
+        "다음 소스 코드를 완성하여 소음이 가장 심한 층수가 출력되게 만드세요.\n",
+        "단, 층수를 출력할 때는 소수점 이하 자리는 버립니다(정수로 출력).\n",
         "\n",
-        "도로와의 거리: 12m\n",
-        "practice_arithmetic.py\n",
-        "print(                       )"
+        "도로와의 거리: 12m"
       ],
       "execution_count": 0,
       "outputs": []
     },
     {
       "metadata": {
-        "id": "ULGMuZQlemF3",
+        "id": "axKYyHhvfyZt",
         "colab_type": "code",
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 36
-        },
-        "outputId": "e0eb3eb5-5d1d-43e2-fce5-b1d4d348118c"
+        "colab": {}
       },
       "cell_type": "code",
       "source": [
         "int(0.2467 * 12 + 4.159)"
       ],
-      "execution_count": 6,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {
-            "text/plain": [
-              "7"
-            ]
-          },
-          "metadata": {
-            "tags": []
-          },
-          "execution_count": 6
-        }
-      ]
+      "execution_count": 0,
+      "outputs": []
     },
     {
       "metadata": {
-        "id": "sgVFwrEKcSrj",
+        "id": "rA7sKGfvfwpy",
         "colab_type": "code",
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 55
-        },
-        "outputId": "c5817c47-09cc-4d97-a067-b364b91b6c02"
+        "colab": {}
       },
       "cell_type": "code",
       "source": [
         ""
       ],
-      "execution_count": 4,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "text": [
-            "숫자 세개를 입력 하세요: -10 20 30\n",
-            "40\n"
-          ],
-          "name": "stdout"
-        }
-      ]
+      "execution_count": 0,
+      "outputs": []
     },
     {
       "metadata": {
